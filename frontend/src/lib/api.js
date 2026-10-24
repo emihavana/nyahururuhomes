@@ -1,5 +1,4 @@
-const apiHost = typeof window === 'undefined' ? '127.0.0.1' : window.location.hostname
-const defaultApiBase = `http://${apiHost}/nyahururu-homes-api/index.php/api`
+const defaultApiBase = 'https://maziwa.emitechsolutions.co.ke/api/index.php/api'
 const API_BASE = (import.meta.env.VITE_API_BASE_URL || defaultApiBase).replace(/\/$/, '')
 let csrfToken = ''
 
