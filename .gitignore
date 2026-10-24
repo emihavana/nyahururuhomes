@@ -1,0 +1,21 @@
+# Dependencies and generated frontend builds
+/frontend/node_modules/
+/frontend/dist/
+
+# Local environment variables; keep the safe template
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local uploads and runtime files
+**/uploads/
+*.log
+*.pem
+*.key
+
+# OS-generated files
+.DS_Store
+Thumbs.db
